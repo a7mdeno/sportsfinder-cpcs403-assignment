@@ -1,0 +1,92 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, h4, h5, h6, p, ul, li, form, input, textarea, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* CSS for Contact Information Section */
+#contact-info {
+    background-color: #f9f9f9; 
+    padding: 50px 0; 
+}
+
+#contact-info .container {
+    text-align: center; 
+}
+
+#contact-info h2 {
+    color: #333;
+    margin-bottom: 20px; 
+}
+
+#contact-info p {
+    color: #666; 
+    font-size: 16px; 
+    line-height: 1.5; 
+    margin-bottom: 10px; 
+}
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+h2{
+    padding-bottom: 20px;
+}
+
+main {
+    padding-top: 20px;
+}
+
+/* Contact Form Section */
+#contact {
+    padding: 50px 0;
+}
+
+.contact-form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.form-group button {
+    background-color: #114232;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.form-group button:hover {
+    background-color: #555;
+}

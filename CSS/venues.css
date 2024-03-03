@@ -1,0 +1,143 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, h4, h5, h6, p, ul, li, form, input, button {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* Horizontal Rule Style */
+hr {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin: 20px 0;
+}
+
+p{
+    margin-bottom: 39px;
+}
+
+main {
+    padding-top: 20px;
+}
+
+/* Venue Title */
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #333;
+}
+
+/* Sports List */
+.sports-list {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.sports-list li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.sports-list li a {
+    text-decoration: none;
+    color: #555;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.sports-list li a:hover {
+    color: #333;
+    text-decoration: underline;
+}
+
+
+/* Venue List Styles */
+
+.venue-list {
+    margin-bottom: 40px;
+}
+
+.venue-list h3 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.venue-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.venue-list li {
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: top;
+}
+
+.venue-list li:last-child {
+    margin-right: 0;
+}
+
+.venue-list li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.venue-list li a:hover {
+    transform: translateY(-5px);
+}
+
+.venue-list li img {
+    width: 200px;
+    height: 150px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    display: block;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.venue-list li p {
+    font-size: 16px;
+    color: #666;
+}
+
+
+
+
+/* Venue Item */
+.venue-item {
+    text-align: center;
+}
+
+.venue-item img {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 0 auto 10px;
+    border-radius: 50%;
+}
+
+.venue-item p {
+    font-size: 16px;
+    color: #333;
+}
+
+.venue-item a {
+    text-decoration: none;
+    color: #333;
+}
+
+.venue-item a:hover {
+    text-decoration: underline;
+}
